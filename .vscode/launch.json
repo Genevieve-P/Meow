@@ -1,0 +1,14 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "pwa-chrome",
+      "request": "launch",
+      "name": "Open index.html in Chrome (no debug)",
+      "file": "${workspaceFolder}/index.html",
+      "runtimeExecutable": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+      "userDataDir": false,
+      "webRoot": "${workspaceFolder}"
+    }
+  ]
+}
