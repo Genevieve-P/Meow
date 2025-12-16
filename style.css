@@ -20,6 +20,11 @@ h4{
     font-family:Bradley Hand, cursive;
     color: black;
 }
+h6{
+    text-align:center;
+    font-family: Bradley Hand, cursive;
+    color: black;
+}
 hr{
     border:none;
     height:3px;
