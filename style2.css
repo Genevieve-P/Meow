@@ -16,9 +16,72 @@ h3{
     color:black;
 }
 .hover-link{
-    text-decoration:none;
-    color:black;
+    text-decoration: none;
+    color: black;
 }
 .hover-link:hover{
     text-decoration: underline;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    min-height:100vh;
+    background-size:cover;
+    background-position:center;
+    transition:background-image 1s ease-in-out;
+    font-family:Bradley Hand, cursive;
+}
+.bg-one{
+    background-image:url("https://i.pinimg.com/736x/d4/cc/82/d4cc82bdd3d84c23f6f92d4b5ce98abc.jpg");
+}
+.bg-two{
+    background-image:url("https://i.pinimg.com/736x/0a/00/c2/0a00c2837903d7e025bf0926071e1260.jpg");
+}
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 15px 30px;
+    background: rgba(255, 255, 255, 0.3);
+    background-filter: blur(5px);
+    position:fixed;
+    width:100%;
+    top:0;
+    z-index: 10;
+}
+.logo{
+    font-size:1.4rem;
+    font-weight: bold;
+}
+.nav-links{
+    list-style: none;
+    display:flex;
+    gap: 20px;
+}
+.nav-links a{
+    text-decoration:none;
+    color:black;
+    font-weight:500;
+}
+.nav-links a:hover{
+    text-decoration:underline;
+}
+#bgToggle{
+    padding: 8px 12px;
+    cursor:pointer;
+    border:none;
+    background-color:rgba(255,255,255,0.9);
+    border-radius:5px;
+    transition: background 0.3s;
+}
+#bgToggle:hover{
+    background-color:rgba(255,255,255,0.9);
+}
+main{
+    padding:100px 40px 40px;
+    color:#000;
+    text-align:center;
 }

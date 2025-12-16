@@ -1,0 +1,24 @@
+body{
+    background-image:url("https://i.pinimg.com/736x/d4/cc/82/d4cc82bdd3d84c23f6f92d4b5ce98abc.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+h1{
+    text-align:center;
+    color:black;
+    font-family: Bradley hand, cursive;
+    text-decoration:underline;
+}
+h3{
+    text-align:center;
+    font-family: Bradley Hand, cursive;
+    color:black;
+}
+.hover-link{
+    text-decoration:none;
+    color:black;
+}
+.hover-link:hover{
+    text-decoration: underline;
+}
